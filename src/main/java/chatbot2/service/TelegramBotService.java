@@ -10,7 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class TelegramBotService {
     private static final String BASE_URL = "https://api.telegram.org/bot";
-    private static final String BOT_TOKEN = "6826693265:AAFXUsWC8UpyU9P4bDBo1Bt6qV4aCUfqdjI";
+    private static final String BOT_TOKEN = "";
     private final TelegramBotApi api;
 
     public TelegramBotService() {
