@@ -41,7 +41,7 @@ public class TelegramBotServiceTest {
 
     private static void testSendMessage() {
         System.out.println("테스트: sendMessage()");
-        long chatId = 5261784013L; // 실제 채팅 ID로 변경해야 합니다.
+        long chatId = 123456789L; // 실제 채팅 ID로 변경해야 합니다.
         String text = "테스트 메시지입니다.";
         try {
             Message sentMessage = service.sendMessage(chatId, text);
